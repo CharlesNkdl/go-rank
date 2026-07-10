@@ -1,0 +1,2 @@
+# go-rank
+training purpose
