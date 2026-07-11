@@ -18,7 +18,7 @@ func CreateApp() App {
 func Run() error {
 	//app := CreateApp()
 	w := 10
-	h := 3
+	h := 20
 	loop.MakeSquare(w)
 	fmt.Println()
 	loop.MakeRectangle(h, w)
