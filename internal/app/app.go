@@ -30,6 +30,8 @@ func Run() error {
 	//array.TicTacToe(h)
 
 	statistics.BayesImplementation()
+	fmt.Println()
+	statistics.BayesOptimizing()
 
 	return nil
 }
