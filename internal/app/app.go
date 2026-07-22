@@ -3,8 +3,8 @@ package app
 import (
 	"fmt"
 
-	"github.com/cnkdl/go-rank/internal/array"
 	"github.com/cnkdl/go-rank/internal/loop"
+	"github.com/cnkdl/go-rank/internal/statistics"
 )
 
 type App struct {
@@ -27,7 +27,9 @@ func Run() error {
 
 	loop.Sheep(2, 100, 1, 300)
 
-	array.TicTacToe(h)
+	//array.TicTacToe(h)
+
+	statistics.BayesImplementation()
 
 	return nil
 }
